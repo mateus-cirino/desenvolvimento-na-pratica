@@ -1,5 +1,5 @@
 package exemplointerface;
 
 public interface Pix {
-    public String getChavePix();
+    public double depositarPix(double valorASerDepositadoPix);
 }

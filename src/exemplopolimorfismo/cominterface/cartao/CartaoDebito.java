@@ -1,6 +1,6 @@
-package exemplointerface.cartao;
+package exemplopolimorfismo.cominterface.cartao;
 
-import exemplointerface.Pix;
+import exemplopolimorfismo.cominterface.Pix;
 
 public class CartaoDebito extends Cartao implements Pix {
     private double saldo;
@@ -28,9 +28,8 @@ public class CartaoDebito extends Cartao implements Pix {
     }
 
     @Override
-    public double depositarPix(double valorASerDepositadoPix) {
-        saldo = saldo + valorASerDepositadoPix;
-        return valorASerDepositadoPix;
+    public String getChavePix() {
+        return getCpf();
     }
 
     //Vários e vários outros métodos

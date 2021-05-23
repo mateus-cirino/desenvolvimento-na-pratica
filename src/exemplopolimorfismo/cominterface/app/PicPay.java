@@ -1,6 +1,6 @@
-package exemplointerface.app;
+package exemplopolimorfismo.cominterface.app;
 
-import exemplointerface.Pix;
+import exemplopolimorfismo.cominterface.Pix;
 
 public class PicPay extends AppComercial implements Pix {
     private String codigoRegistroPicPay;
@@ -16,9 +16,8 @@ public class PicPay extends AppComercial implements Pix {
     }
 
     @Override
-    public double depositarPix(double valorASerDepositadoPix) {
-        saldo = saldo + valorASerDepositadoPix;
-        return valorASerDepositadoPix;
+    public String getChavePix() {
+        return getCodigoRegistroPicPay();
     }
     //Vários e vários outros métodos ...
 }
