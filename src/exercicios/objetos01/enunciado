@@ -1,0 +1,9 @@
+O seguinte sistema foi solicitado para você desenvolvedor:
+1 - Deverá existir duas entidades (classes) sendo a primeira Funcionário e a segunda um Registro de Ponto.
+2 - A classe funcionário possuí 2 atributos (nome e cpf) e deverão ser inicializados no construtor da classe.
+3 - A classe registro de ponto possuí um método (baterPonto) que recebe como parâmetro um objeto do tipo pessoa
+e printa ou retorna uma string com o seguinte formato: "O funcionário X bateu ponto".
+
+Extra - Na classe Registro Ponto, adicione um atributo (funcionariosQueBateramPonto) pode ser uma Lista, Array ou qualquer
+coisa que permita adicionar vários objetos do tipo Funcionário e depois crie um método (funcionáriosQueBateramPonto) que
+irá percorrer a lista e irá printar a seguinte mensagem: "O funcionário X bateu ponto", para cada funcionário na lista.
