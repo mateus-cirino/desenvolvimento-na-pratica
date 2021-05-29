@@ -1,0 +1,13 @@
+O seguinte sistema foi solicitado para você desenvolvedor:
+1 - Crie uma classe chamada StringReplace com um método main.
+2 - Com os seus conhecimentos sobre orientação a objetos, crie um novo objeto do tipo String
+e dê a ele o seguinte valor: "Geeks for Geeks".
+3 - Utilize algum método da classe String para fazer uma troca de palavras na frase, para que ela
+fique da seguinte forma:
+    Antes => "Geeks for Geeks"
+    Depois => "Mateus for Mateus"
+4 - Faça o teste dentro do método main, printando o novo valor no console.
+
+Extra: crie mais uma variável com o seguinte valor (com os espaços): " Abacaxi com limão     "
+encontre um método na classe String que é útil para remover os espaços no ínicio e no fim da
+frase.
