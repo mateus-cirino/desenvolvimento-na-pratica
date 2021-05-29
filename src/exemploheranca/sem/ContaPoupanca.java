@@ -4,7 +4,6 @@ public class ContaPoupanca {
     private int numero;
     private String dono;
     private double saldo;
-    private double taxaRendimento;
     // Vários e vários outros atributos...
 
     public int getNumero() {
@@ -44,18 +43,5 @@ public class ContaPoupanca {
         return valorASerDepositado;
     }
 
-    public double getTaxaRendimento() {
-        return taxaRendimento;
-    }
-
-    public void setTaxaRendimento(double taxaRendimento) {
-        this.taxaRendimento = taxaRendimento;
-    }
-
-    public double render() {
-        double rendimento = getSaldo() * taxaRendimento;
-        setSaldo(getSaldo() + rendimento);
-        return getSaldo();
-    }
     // Vários e vários outros métodos...
 }

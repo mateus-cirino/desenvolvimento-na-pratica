@@ -5,7 +5,6 @@ public abstract class AppComercial {
     private double saldo;
     //Vários e vários outros atributos ...
 
-
     public String getDono() {
         return dono;
     }

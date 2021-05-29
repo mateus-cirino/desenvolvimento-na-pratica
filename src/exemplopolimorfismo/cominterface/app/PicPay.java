@@ -6,7 +6,6 @@ public class PicPay extends AppComercial implements Pix {
     private String codigoRegistroPicPay;
     //Vários e vários outros atributos ...
 
-
     public String getCodigoRegistroPicPay() {
         return codigoRegistroPicPay;
     }

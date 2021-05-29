@@ -1,17 +1,8 @@
-package exemplointerface.app;
+package exemplopolimorfismo.comheranca;
 
-public abstract class AppComercial {
-    private String dono;
+public abstract class Conta {
     private double saldo;
-    //Vários e vários outros atributos ...
-
-    public String getDono() {
-        return dono;
-    }
-
-    public void setDono(String dono) {
-        this.dono = dono;
-    }
+    // Vários e vários outros atributos...
 
     public double getSaldo() {
         return saldo;
@@ -25,5 +16,8 @@ public abstract class AppComercial {
         saldo = saldo + valorASerDepositado;
         return valorASerDepositado;
     }
-    //Vários e vários outros métodos ...
+
+    protected abstract double getRendimento();
+
+    // Vários e vários outros métodos...
 }

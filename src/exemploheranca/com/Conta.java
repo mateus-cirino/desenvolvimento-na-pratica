@@ -43,9 +43,5 @@ public class Conta {
         return valorASerDepositado;
     }
 
-    protected double getRendimento() {
-        return 0 * getSaldo();
-    };
-
     // Vários e vários outros métodos...
 }

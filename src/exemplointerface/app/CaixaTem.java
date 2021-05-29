@@ -16,7 +16,7 @@ public class CaixaTem extends AppComercial implements Pix {
 
     @Override
     public double depositarPix(double valorASerDepositadoPix) {
-        saldo = saldo + valorASerDepositadoPix;
+        setSaldo(getSaldo() + valorASerDepositadoPix);
         return valorASerDepositadoPix;
     }
     //Vários e vários outros métodos ...

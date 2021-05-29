@@ -10,5 +10,6 @@ public class Banco {
         }
         return false;
     }
+
     // Vários e vários outros métodos...
 }

@@ -23,7 +23,7 @@ public abstract class Conta {
     }
 
     public double getSaldo() {
-        return saldo * getRendimento();
+        return saldo;
     }
 
     public void setSaldo(double saldo) {
@@ -43,6 +43,5 @@ public abstract class Conta {
         return valorASerDepositado;
     }
 
-    protected abstract double getRendimento();
     // Vários e vários outros métodos...
 }
