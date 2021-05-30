@@ -1,0 +1,4 @@
+O seguinte sistema foi solicitado para você desenvolvedor:
+1 - Existem duas entidades no sistema que possuem os mesmos atributos (nome e peso) sendo elas a entidade PDF que possuí o atributo
+(numeroPaginas) e PNG que possuí o atributo (numeroCores), além disso existe também uma entidade chamada Backup que deverá conseguir
+armazenar qualquer um dos dois tipos (PDF, PNG).
