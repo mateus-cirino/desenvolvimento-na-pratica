@@ -18,7 +18,7 @@ public class RegistroPonto {
 
     public void funcionariosQueBateramPonto() {
         for (int i = 0; i < funcionariosBateramPonto.size(); i++) {
-            Funcionario funcionario = funcionariosBateramPonto.get(0);
+            Funcionario funcionario = funcionariosBateramPonto.get(i);
 
             System.out.println("O funcionário " + funcionario.getNome() + " bateu o ponto");
         }
